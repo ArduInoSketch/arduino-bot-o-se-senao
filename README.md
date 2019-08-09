@@ -1,0 +1,2 @@
+# Condicional  if - else 
+Os comandos if e if-else são instruções que permitem a execução condicional de outros comandos. O comando **if** é executado quando a condição é **verdadeira**, caso contrário, o comando **else** é executado, porem temos ocasiões em que o else é desnecessário. Nesse projeto iremos utilizar de botões para ilustra o uso dos comandos, demostração do projeto no blog [ardu.ino.sketch](https://instagram.com/ardu.ino.sketch?utm_source=ig_profile_share&igshid=q0plxzc5k6m4).
