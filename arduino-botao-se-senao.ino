@@ -2,12 +2,14 @@
 #define led2 7
 #define botao1 8
 #define botao2 9
+
 void setup() {
   pinMode(led1, OUTPUT); //SAIDA
   pinMode(led2, OUTPUT);
   pinMode(botao1, INPUT_PULLUP); //ENTRADA
   pinMode(botao2, INPUT_PULLUP);
 }
+
 void loop() {
   //SE FOR VERDADEIRO LIGA A LED1 E DESLIGA LED2
   if ((digitalRead(botao1) == LOW) && (digitalRead(botao2) == HIGH)) {
